@@ -1,0 +1,149 @@
+<mxfile host="65bd71144e" pages="3">
+    <diagram id="ueE2YcmuPaFdtMZeYiOE" name="Casos de Uso">
+        <mxGraphModel dx="1010" dy="3048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="kk-BlIpxpN1UNN-EQ3jS-1" value="" style="shape=rectangle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="-1450" width="506" height="1510" as="geometry"/>
+                </mxCell>
+                <mxCell id="kk-BlIpxpN1UNN-EQ3jS-2" value="Criar Pedido de Aluguel" style="ellipse;whiteSpace=wrap;html=1;" parent="kk-BlIpxpN1UNN-EQ3jS-1" vertex="1">
+                    <mxGeometry x="80" y="80" width="190" height="158.44" as="geometry"/>
+                </mxCell>
+                <mxCell id="kk-BlIpxpN1UNN-EQ3jS-3" value="Consultar Pedido" style="ellipse;whiteSpace=wrap;html=1;" parent="kk-BlIpxpN1UNN-EQ3jS-1" vertex="1">
+                    <mxGeometry x="130" y="310" width="190" height="129.53" as="geometry"/>
+                </mxCell>
+                <mxCell id="kk-BlIpxpN1UNN-EQ3jS-4" value="Modificar Pedido" style="ellipse;whiteSpace=wrap;html=1;" parent="kk-BlIpxpN1UNN-EQ3jS-1" vertex="1">
+                    <mxGeometry x="90.53999999999999" y="650" width="190.06" height="164.07" as="geometry"/>
+                </mxCell>
+                <mxCell id="kk-BlIpxpN1UNN-EQ3jS-5" value="Cancelar Pedido" style="ellipse;whiteSpace=wrap;html=1;" parent="kk-BlIpxpN1UNN-EQ3jS-1" vertex="1">
+                    <mxGeometry x="150" y="470" width="210" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="kk-BlIpxpN1UNN-EQ3jS-6" value="Avaliar Pedido" style="ellipse;whiteSpace=wrap;html=1;" parent="kk-BlIpxpN1UNN-EQ3jS-1" vertex="1">
+                    <mxGeometry x="39.96" y="880" width="200.04" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="kk-BlIpxpN1UNN-EQ3jS-7" value="Gerar Contrato" style="ellipse;whiteSpace=wrap;html=1;" parent="kk-BlIpxpN1UNN-EQ3jS-1" vertex="1">
+                    <mxGeometry x="230" y="1070" width="200" height="168.43" as="geometry"/>
+                </mxCell>
+                <mxCell id="kk-BlIpxpN1UNN-EQ3jS-8" value="Associar Contrato de Crédito" style="ellipse;whiteSpace=wrap;html=1;" parent="kk-BlIpxpN1UNN-EQ3jS-1" vertex="1">
+                    <mxGeometry x="49.93" y="1260" width="210.07" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="kk-BlIpxpN1UNN-EQ3jS-10" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="-980" width="60" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="kk-BlIpxpN1UNN-EQ3jS-11" value="Agente (Banco/Empresa)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="-361.57" width="60" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="kk-BlIpxpN1UNN-EQ3jS-13" style="endArrow=classic;html=1;" parent="1" source="kk-BlIpxpN1UNN-EQ3jS-10" target="kk-BlIpxpN1UNN-EQ3jS-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="kk-BlIpxpN1UNN-EQ3jS-14" style="endArrow=classic;html=1;" parent="1" source="kk-BlIpxpN1UNN-EQ3jS-10" target="kk-BlIpxpN1UNN-EQ3jS-3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="kk-BlIpxpN1UNN-EQ3jS-15" style="endArrow=classic;html=1;" parent="1" source="kk-BlIpxpN1UNN-EQ3jS-10" target="kk-BlIpxpN1UNN-EQ3jS-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="kk-BlIpxpN1UNN-EQ3jS-16" style="endArrow=classic;html=1;" parent="1" source="kk-BlIpxpN1UNN-EQ3jS-10" target="kk-BlIpxpN1UNN-EQ3jS-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="kk-BlIpxpN1UNN-EQ3jS-17" style="endArrow=classic;html=1;" parent="1" source="kk-BlIpxpN1UNN-EQ3jS-11" target="kk-BlIpxpN1UNN-EQ3jS-6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="kk-BlIpxpN1UNN-EQ3jS-18" style="endArrow=classic;html=1;" parent="1" source="kk-BlIpxpN1UNN-EQ3jS-11" target="kk-BlIpxpN1UNN-EQ3jS-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="kk-BlIpxpN1UNN-EQ3jS-19" style="endArrow=classic;html=1;" parent="1" source="kk-BlIpxpN1UNN-EQ3jS-11" target="kk-BlIpxpN1UNN-EQ3jS-8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="98hVq_maSWGoU0MG_7jL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="kk-BlIpxpN1UNN-EQ3jS-1" target="kk-BlIpxpN1UNN-EQ3jS-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="Diagrama de Classes" id="aBXxrflKKB0-HzNy8kOW">
+        <mxGraphModel dx="1904" dy="1926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;b&gt;Usuario&lt;/b&gt;&lt;br&gt;&lt;hr&gt;- id: Int&lt;br&gt;- login: String&lt;br&gt;- senha: String&lt;br&gt;- tipo: TipoUsuario&lt;br&gt;&lt;hr&gt;+ autenticar()&lt;br&gt;+ alterarSenha()" style="shape=umlClass;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="-600" width="260" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;b&gt;Cliente&lt;/b&gt;&lt;br&gt;&lt;hr&gt;- id: Int&lt;br&gt;- rg: String&lt;br&gt;- cpf: String&lt;br&gt;- nome: String&lt;br&gt;- endereco: String&lt;br&gt;- profissao: String&lt;br&gt;- empregadores: List&lt;br&gt;- rendimentos: List(max 3)&lt;br&gt;&lt;hr&gt;+ atualizarDados()&lt;br&gt;+ listarPedidos()" style="shape=umlClass;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="-335" width="260" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="-XTG8YECijy0q91fTInH-19" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="4" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;b&gt;Agente&lt;/b&gt;&lt;br&gt;&lt;hr&gt;- id: Int&lt;br&gt;- nome: String&lt;br&gt;- tipo: TipoAgente&lt;br&gt;&lt;hr&gt;+ avaliarPedido(Pedido)&lt;br&gt;+ registrarContrato(Contrato)" style="shape=umlClass;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="-150" y="30" width="260" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="-XTG8YECijy0q91fTInH-18" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="5" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;b&gt;Pedido&lt;/b&gt;&lt;br&gt;&lt;hr&gt;- id: Int&lt;br&gt;- data: LocalDateTime&lt;br&gt;- status: StatusPedido&lt;br&gt;&lt;hr&gt;+ modificar()&lt;br&gt;+ cancelar()&lt;br&gt;+ consultarStatus()" style="shape=umlClass;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="-150" y="-280" width="260" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;b&gt;Contrato&lt;/b&gt;&lt;br&gt;&lt;hr&gt;- id: Int&lt;br&gt;- tipoPropriedade: TipoPropriedade&lt;br&gt;- dataInicio: LocalDate&lt;br&gt;- dataFim: LocalDate&lt;br&gt;- valorMensal: BigDecimal&lt;br&gt;&lt;hr&gt;+ ativar()&lt;br&gt;+ encerrar()" style="shape=umlClass;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="-150" y="290" width="260" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;b&gt;Automovel&lt;/b&gt;&lt;br&gt;&lt;hr&gt;- id: Int&lt;br&gt;- placa: String&lt;br&gt;- matricula: String&lt;br&gt;- ano: Int&lt;br&gt;- marca: String&lt;br&gt;- modelo: String&lt;br&gt;&lt;hr&gt;+ disponivel()&lt;br&gt;+ reservar()" style="shape=umlClass;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="-150" y="560" width="260" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;b&gt;Credito&lt;/b&gt;&lt;br&gt;&lt;hr&gt;- id: Int&lt;br&gt;- banco: String&lt;br&gt;- valor: BigDecimal&lt;br&gt;- taxaJuros: BigDecimal&lt;br&gt;- condicoes: String&lt;br&gt;&lt;hr&gt;+ calcularParcelas()&lt;br&gt;+ aprovar()" style="shape=umlClass;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="290" width="260" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;b&gt;Empregador&lt;/b&gt;&lt;br/&gt;&lt;hr/&gt;- nome: String&lt;br/&gt;- cnpj: String&lt;br/&gt;- endereco: String&lt;br/&gt;&lt;hr/&gt;+ validarVinculo()" style="shape=umlClass;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="50" width="260" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="endArrow=block;endFill=0;html=1;" parent="1" source="3" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="endArrow=block;startArrow=diamondThin;startFill=0;html=1;" parent="1" source="3" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=block;html=1;" parent="1" source="6" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="endArrow=block;html=1;" parent="1" source="6" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="endArrow=block;startArrow=diamondThin;startFill=0;html=1;" parent="1" source="3" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="Diagrama de Pacotes" id="o9rWylQzHUnbPJJ1LmEw">
+        <mxGraphModel dx="1635" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;b&gt;controller&lt;/b&gt;&lt;hr&gt;ClienteController&lt;br&gt;PedidoController&lt;br&gt;ContratoController" style="shape=folder;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-10" y="60" width="260" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;b&gt;service&lt;/b&gt;&lt;hr&gt;ClienteService&lt;br&gt;PedidoService&lt;br&gt;ContratoService" style="shape=folder;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="60" width="260" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;b&gt;percistencia&lt;/b&gt;&lt;br&gt;&lt;hr&gt;ClienteRepository&lt;br&gt;PedidoRepository&lt;br&gt;ContratoRepository&lt;br&gt;AutomovelRepository" style="shape=folder;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="60" width="260" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;b&gt;model&lt;/b&gt;&lt;hr&gt;Usuario&lt;br&gt;Cliente&lt;br&gt;Agente&lt;br&gt;Pedido&lt;br&gt;Contrato&lt;br&gt;Automovel&lt;br&gt;Credito&lt;br&gt;Empregador" style="shape=folder;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="300" width="460" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="dashed=1;endArrow=open;html=1;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="dashed=1;endArrow=open;html=1;" parent="1" source="3" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="dashed=1;endArrow=open;html=1;entryX=0.377;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="dashed=1;endArrow=open;html=1;entryX=0.591;entryY=0.088;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
