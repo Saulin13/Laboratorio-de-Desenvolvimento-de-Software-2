@@ -1,0 +1,10 @@
+com\labs\aluguel\config\OpenApiConfig.class
+com\labs\aluguel\controller\ClienteController.class
+com\labs\aluguel\entity\Emprego.class
+com\labs\aluguel\entity\Cliente$ClienteBuilder.class
+com\labs\aluguel\entity\Cliente.class
+com\labs\aluguel\entity\Emprego$EmpregoBuilder.class
+com\labs\aluguel\AluguelApplication.class
+com\labs\aluguel\service\ClienteService.class
+com\labs\aluguel\dto\ClienteDTO.class
+com\labs\aluguel\repository\ClienteRepository.class
